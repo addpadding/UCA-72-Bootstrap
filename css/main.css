@@ -340,4 +340,84 @@ nav.navbar {
   width: 50px;
   margin-left: 10px;
 }
+
+/*
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+================== (jumbotron) ================== */
+.jumbotron .container .row div nav .breadcrumb {
+  margin: 0;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.jumbotron .container .row div nav .breadcrumb .breadcrumb-item::before {
+  float: right;
+}
+
+/*
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+================== (blog) ================== */
+.blog .container .row div .jumbotron {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 2px solid #ffc527;
+}
+
+.blog .container .row div .jumbotron .blog-desc {
+  width: 55%;
+}
+
+.blog .container .row div .jumbotron .blog-desc h4 {
+  font-size: 18px;
+}
+
+.blog .container .row div .jumbotron .blog-img {
+  width: 40%;
+}
 /*# sourceMappingURL=main.css.map */
